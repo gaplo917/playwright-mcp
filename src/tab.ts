@@ -49,7 +49,7 @@ export class Tab {
       void this.context.downloadStarted(this, download);
     });
     page.setDefaultNavigationTimeout(60000);
-    page.setDefaultTimeout(5000);
+    page.setDefaultTimeout(3000);
   }
 
   private _clearCollectedArtifacts() {
